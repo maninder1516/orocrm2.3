@@ -1,0 +1,5 @@
+# src/Izmo/ExtendedCalendarBundle/Resources/config/oro/routing.yml    
+izmo_extended_calendar:
+    resource: "@IzmoExtendedCalendarBundle/Controller/DefaultController.php"
+    type:     annotation
+    prefix:   /calendar

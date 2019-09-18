@@ -1,0 +1,3 @@
+# src/Izmo/ExtendedCalendarBundle/Resources/config/oro/bundles.yml
+bundles:
+    - Izmo\ExtendedCalendarBundle\IzmoExtendedCalendarBundle

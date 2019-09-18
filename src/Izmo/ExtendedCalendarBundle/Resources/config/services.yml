@@ -1,0 +1,4 @@
+services:
+#    izmo_extended_calendar.example:
+#        class: Izmo\ExtendedCalendarBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

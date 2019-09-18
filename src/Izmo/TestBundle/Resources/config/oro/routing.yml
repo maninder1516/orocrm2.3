@@ -1,0 +1,5 @@
+# src/Izmo/TestBundle/Resources/config/oro/routing.yml 
+izmo_test:
+    resource: "@IzmoTestBundle/Controller/DefaultController.php"
+    type:     annotation
+    prefix:   /test
