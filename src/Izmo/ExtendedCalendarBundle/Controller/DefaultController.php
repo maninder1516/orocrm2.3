@@ -10,16 +10,18 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Oro\Bundle\SecurityBundle\Annotation\Acl;
 use Oro\Bundle\SecurityBundle\Annotation\AclAncestor;
 
+use Symfony\Component\HttpFoundation\Request;
+
 
 use Oro\Bundle\CalendarBundle\Controller\CalendarController AS BaseCalendarController;
 
 /**
- * @Route("/event")
+ * @Route("/event_extended")
  */
 class DefaultController extends BaseCalendarController
 {
     /**
-     * @Route(name="oro_calendar_event_index")
+     * @Route(name="oro_calendar_event_index123")
      * @Template
      * @Acl(
      *      id="oro_calendar_event_view",
@@ -29,9 +31,9 @@ class DefaultController extends BaseCalendarController
      *      group_name=""
      * )
      */
-    public function indexAction()
+    public function index123Action()
     {
-        echo 'Hello';
+        echo 'Hello Calendar';
         exit;
         
         return array(
@@ -40,7 +42,7 @@ class DefaultController extends BaseCalendarController
     }
     
     /**
-     * @Route(name="oro_calendar_event_index123")
+     * @Route(name="oro_calendar_event_index12345")
      * @Template
      * @Acl(
      *      id="oro_calendar_event_view",
@@ -50,7 +52,7 @@ class DefaultController extends BaseCalendarController
      *      group_name=""
      * )
      */
-    public function index123Action()
+    public function index12345Action()
     {
         return $this->render('IzmoExtendedCalendarBundle:Default:index.html.twig');
     }

@@ -13,8 +13,14 @@ use Oro\Bundle\SecurityBundle\Annotation\AclAncestor;
  */
 class DefaultController extends Controller
 {
+    /**
+     * @Route("/index", name="test_index")
+     * @Template()
+     */
     public function indexAction()
     {
+        echo 'Hello';
+        die;
         return $this->render('IzmoTestBundle:Default:index.html.twig');
     }
 }

@@ -30,3 +30,4 @@ phpunit.xml
 /app/SymfonyRequirements.php
 /web/uploads/behat
 /nbproject/private/
+

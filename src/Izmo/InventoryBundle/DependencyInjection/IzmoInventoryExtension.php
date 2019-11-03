@@ -1,6 +1,6 @@
 <?php
 
-namespace Izmo\ExtendedCalendarBundle\DependencyInjection;
+namespace Izmo\InventoryBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class IzmoExtendedCalendarExtension extends Extension
+class IzmoInventoryExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -24,5 +24,6 @@ class IzmoExtendedCalendarExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+        $loader->load('form.yml');
     }
 }

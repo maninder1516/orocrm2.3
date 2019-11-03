@@ -21,7 +21,8 @@ framework:
     session:
         name:                 CRMID
         handler_id:           %session_handler%
-        save_path:            %kernel.root_dir%/cache/sessions
+#        save_path:            %kernel.root_dir%/cache/sessions
+        save_path:            /var/lib/php/sessions
         gc_maxlifetime:       3600
         cookie_httponly:      true
     fragments:

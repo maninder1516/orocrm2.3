@@ -1,0 +1,6 @@
+# src/Izmo/InventoryBundle/Resources/config/form.yml
+services:
+    inventory.form.type.vehicle:
+        class: Izmo\InventoryBundle\Form\Type\VehicleType
+        tags:
+            - { name: form.type, alias: inventory_vehicle }

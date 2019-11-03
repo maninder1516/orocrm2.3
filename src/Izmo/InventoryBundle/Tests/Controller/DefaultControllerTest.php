@@ -1,6 +1,6 @@
 <?php
 
-namespace Izmo\TestBundle\Tests\Controller;
+namespace Izmo\InventoryBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

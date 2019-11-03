@@ -1,0 +1,9 @@
+# src/Izmo/TestBundle/Resources/config/oro/navigation.yml
+menu_config:
+    items:
+        test:
+            label: Test CRUD    
+            uri: '#'
+        test_index:
+            label: Test Index
+            route: test_index

@@ -10,7 +10,7 @@ class AppKernel extends OroKernel
     {
         $bundles = array(
         //bundles,
-            
+//            new Izmo\InventoryBundle\IzmoInventoryBundle(),
         );
 
         if ('dev' === $this->getEnvironment()) {

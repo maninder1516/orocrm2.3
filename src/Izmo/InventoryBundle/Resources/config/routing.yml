@@ -1,0 +1,3 @@
+izmo_inventory_homepage:
+    path:     /
+    defaults: { _controller: IzmoInventoryBundle:Default:index }

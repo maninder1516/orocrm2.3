@@ -1,0 +1,5 @@
+# src/Izmo/InventoryBundle/Resources/config/oro/routing.yml
+inventory_bundle:
+    resource: "@IzmoInventoryBundle/Controller/VehicleController.php"
+    type: annotation
+    prefix: /inventory

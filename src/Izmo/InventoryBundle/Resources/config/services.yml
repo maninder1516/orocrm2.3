@@ -1,4 +1,4 @@
 services:
-#    izmo_test.example:
-#        class: Izmo\TestBundle\Example
+#    izmo_inventory.example:
+#        class: Izmo\InventoryBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
